@@ -39,3 +39,21 @@ message.trimStart();
 message.split(' ')
 
 console.log(message);
+
+let song = 'I Got It Bad And That Aint Good';
+console.log(song);
+
+"dan".length;
+
+/* 
+Used the string methods you know to
+1. remove the extra whitespace at the beginning and  end of the string
+and
+2. capitalize all the letters
+Make sure to assing you answer to
+the 'trimAndCaps' variable
+*/
+
+let originalString = " I like ceviche  "
+let changeString = originalString.trim().toUpperCase();
+console.log(changeString);

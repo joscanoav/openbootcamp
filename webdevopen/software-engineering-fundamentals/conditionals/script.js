@@ -28,3 +28,5 @@ if (random === 1){
 } else {
     console.log("The random number was not 1, 2 or 6.Unlucky.")
 }
+
+reviwe

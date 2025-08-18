@@ -29,4 +29,18 @@ if (random === 1){
     console.log("The random number was not 1, 2 or 6.Unlucky.")
 }
 
-reviwe
+// assignment (one equal sign)
+let currentForecast = "sunny";
+
+// equality comparison (three equal signs)
+if (currentForecast === "rain"){
+    let recommendation = "Bring your umbrella!";
+}
+
+// Mistake alert!
+// Only one equals sign,
+// means that this assigns 'rain' to currentForecast
+
+if (currentForecast = "rain"){
+    let recommendation = "Bring your umbrella!";
+}

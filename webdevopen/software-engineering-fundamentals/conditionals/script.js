@@ -44,3 +44,35 @@ if (currentForecast === "rain"){
 if (currentForecast = "rain"){
     let recommendation = "Bring your umbrella!";
 }
+
+// BIG SPENDER
+
+let sales = 1500;
+let inventoryCost = 1200;
+let monthlySummaryMessage = "";
+
+if (sales> inventoryCost){
+    monthlySummaryMessage = "We made more than we spent"
+}
+if (sales < inventoryCost) {
+    monthlySummaryMessage = "Opps, spent more than we made"
+}
+
+if (sales == inventoryCost) {
+    monthlySummaryMessage = "We broke even! Hurray!"
+}
+
+console.log(monthlySummaryMessage);
+
+// Else if
+
+let loginCount = 3;
+if (loginCount > 10){
+    console.log("That's a lot of logins today, champ! Maybe give it a rest.");
+}
+else if (loginCount > 0){
+    console.log("Thanks for logging in!");
+}
+else {
+    console.log("Don't forget to log in today")
+}

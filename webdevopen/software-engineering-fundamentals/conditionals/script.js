@@ -76,3 +76,24 @@ else if (loginCount > 0){
 else {
     console.log("Don't forget to log in today")
 }
+
+// Order of operations
+/*
+Operator precedence
+1. Paraentheses (())
+2. Exponents (**)
+3. Multiplication (*)
+4. Division (/)
+5. Addition (+)
+6. Subtraction (-)
+*/
+
+if(!5 - 4 > 2 === 2 * 10 / 5 === 4){
+    console.log("the expression was truthy")
+} else {
+    console.log("it was falsy");
+}
+
+console.log(!5)
+console.log(!5-4)
+console.log(4>2)

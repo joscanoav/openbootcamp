@@ -7,3 +7,5 @@ let numberOfGuests= 20;
 for (let index = 1; index <= numberOfGuests; index++){
     console.log("Here is a 🍔 for guest #" + index);
 }
+
+update

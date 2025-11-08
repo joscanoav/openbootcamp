@@ -85,3 +85,22 @@ for (let i = 1; i <= 30; i++){
     }
     console.log(i);
 }
+
+//** ACTIVITY */
+for (let i = 1; i <=50; i++){
+
+    // 4. when at least one condition is true, run the code
+    if(i % 10 === 0 || i % 15 ===0){
+        console.log('Donkey!');
+    }
+
+    // 5. when both conditions are true, run the code
+    if ( i % 2 !== 0 && (i-1) % 10 !== 0){
+        console.log('Monkey!');
+    }
+    // 3. on numbers divisible by 5, continue to the next iteration
+    if( i % 5 === 0){
+        continue;
+    }
+    console.log(i);
+}

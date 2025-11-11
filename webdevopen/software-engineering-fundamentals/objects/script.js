@@ -73,3 +73,15 @@ fruitBasket.granadilla = 'ocre';
 fruitBasket.mango = 'yellow';
 
 console.log(fruitBasket);
+
+// Dril programming languages
+
+let languages = {
+    python: "Guido vanRossum",
+};
+
+languages.cobol = 'Grace Hopper';
+languages.javascript = "Brendan Eich";
+languages.java = 'James Gosling';
+languages.swift = "Chris Lattner";
+

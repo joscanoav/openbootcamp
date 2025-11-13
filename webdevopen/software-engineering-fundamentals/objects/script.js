@@ -85,3 +85,22 @@ languages.javascript = "Brendan Eich";
 languages.java = 'James Gosling';
 languages.swift = "Chris Lattner";
 
+let students = {
+    jacob: {
+        classes: [
+            "math",
+            "chemistry",
+            "english"
+        ],
+        grade: 11,
+        age: 16,
+    },
+    guillermo: {
+        classes: ["history", "math",
+            "physics"],
+            grade: 12,
+            age:17,
+    },
+};
+
+let temp;

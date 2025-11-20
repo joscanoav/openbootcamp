@@ -125,3 +125,5 @@ for (let i = 0; i < partyPeople.length; i++){
         console.log(partyPeople[i].name + " is burnt out on partying = (");
     }
 }
+
+updaate

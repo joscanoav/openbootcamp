@@ -126,4 +126,10 @@ for (let i = 0; i < partyPeople.length; i++){
     }
 }
 
-updaate
+let olympicRecords = {
+    athletics100Men: "Justin Gatlin",
+    athleticsLongJumMen: 'Mike Powell'
+};
+
+let allKeys = Object.keys(olympicRecords);
+console.log(allKeys);

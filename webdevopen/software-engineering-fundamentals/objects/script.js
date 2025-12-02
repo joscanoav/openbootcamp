@@ -133,4 +133,27 @@ let olympicRecords = {
 
 let allKeys = Object.keys(olympicRecords);
 console.log(allKeys);
-update 4
+
+let user = {
+    name: 'Ana',
+    age: 27
+};
+
+console.log('name' in user);
+console.log('age' in user);
+console.log('course' in user);
+
+
+// Activity
+// Initial code
+
+let product = {
+    name: 'headphones',
+    price: 120,
+    doesItWork: false,
+    previousOwner: "Bob"
+};
+
+for (let i = 0; i < product.length
+
+    

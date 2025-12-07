@@ -156,4 +156,4 @@ let product = {
 
 for (let i = 0; i < product.length
 
-    
+    update dayoff

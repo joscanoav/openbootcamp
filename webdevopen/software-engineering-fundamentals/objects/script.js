@@ -154,6 +154,25 @@ let product = {
     previousOwner: "Bob"
 };
 
-for (let i = 0; i < product.length
+// Listing all properties
+for (let key in product){
+    console.log(`${key}: ${product[key]}`)
+}
 
-    update dayoff
+//Deleting a property
+delete product.previousOwner;
+
+//Updating a property
+product.doesItWork = true
+
+// Creating a propèrty through a conditional
+if (product.price > 100){
+    product.discountPercentage = 10
+}
+// using property values to update other propertues
+product.price -= product.price * (product.discountPercentage / 100)
+
+//Cheking if a property exists with a conditional
+  if ("discountPercentage" in product) {
+  console.log(`We got some ${product.name} on sale for just $${product.price}, that's ${product.discountPercentage}% off!`);
+  }

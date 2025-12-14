@@ -176,4 +176,3 @@ product.price -= product.price * (product.discountPercentage / 100)
   if ("discountPercentage" in product) {
   console.log(`We got some ${product.name} on sale for just $${product.price}, that's ${product.discountPercentage}% off!`);
   }
-  update 3

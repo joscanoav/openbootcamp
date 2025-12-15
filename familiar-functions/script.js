@@ -38,3 +38,16 @@ sayHello(myFriend);
 
 let name = "George";
 sayHello(name);
+
+function add(num1, num2){
+    return num1 + num2;
+}
+let result = add(5, 15);
+console.log(result);
+
+
+function greetFriend (friend){
+    console.log(friend + " its good to see you")
+}
+
+greetFriend("jorge");

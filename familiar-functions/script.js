@@ -51,3 +51,20 @@ function greetFriend (friend){
 }
 
 greetFriend("jorge");
+
+function add(num1, num2){
+    if(num1 < 0 || num2 < 0){
+        return "Only oisitive numbers please!";
+    }
+    return num1 + num2;
+}
+
+console.log(add(1,4));
+console.log(add(-1,4));
+
+function buildEmailAddress(name, email){
+    return name + "@" + email + ".com"
+}
+
+let answer = buildEmailAddress("joscanoav","gmail")
+console.log(answer)

@@ -4,4 +4,3 @@ for (let i = 0; i < friends.length; i++){
     console.log("Hello " + friend + ", I'm glad that you're here!");
 }
 
-update3Saturday

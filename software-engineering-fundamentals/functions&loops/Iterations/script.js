@@ -6,4 +6,4 @@ for (let i = 0; i < friends.length; i++){
 
 update
 
-update2
+update10
